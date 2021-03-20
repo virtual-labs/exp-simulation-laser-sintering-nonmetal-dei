@@ -1,0 +1,34 @@
+{
+
+   "details": [
+       {
+			"Experiment": "Simulation of Selective Laser Sintering(SLS) process for non- metallic materials.",     
+			"Lab": "3D printing lab",               
+			"Discipline": "Mechanical Engineering",				 
+			"Technology": "Additive Manufacturing"         
+       }
+   ],
+
+   "developer": [
+       {       
+      "Developer": "Prof. Rahul Swarup Sharma",         
+      "Institute": "Dayalbagh Educatonal Institute",         
+      "InstituteAcronym": "DEI"   
+       }
+   ],
+
+   "contributer": [
+       {       
+      "Contributer":  "Saurabh Bhardwaj",              
+      "Institute": "Dayalbagh Educatonal Institute",               
+      "InstituteAcronym": "DEI"         
+       },
+
+       {       
+			"Contributer": "Ajaykant Upadhyay",             
+      "Institute": "Dayalbagh Educatonal Institute",               
+			"InstituteAcronym": "DEI"         
+       },
+      ]
+
+}
