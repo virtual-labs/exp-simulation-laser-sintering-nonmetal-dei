@@ -88,25 +88,61 @@
     /////////////// Write the MCQ below in the exactly same described format ///////////////
 
 
-    const myQuestions = [{
-            question: "1.This is a sample question:", ///// Write the question inside double quotes
+    const myQuestions = [
+       {
+            question: "1.   Which of the following additive manufacturing technique is an example of powder bed fusion:", ///// Write the question inside double quotes
             answers: {
-                a: "This is a sample answer A", ///// Write the option 1 inside double quotes
-                b: "This is a sample answer B", ///// Write the option 2 inside double quotes
-            },
-            correctAnswer: "a" ///// Write the correct option inside double quotes
+                a: "SLA (Stereolithography)", ///// Write the option 1 inside double quotes
+                b: "DOD (Drop On Demand)",
+                c: "SLS (Selective Laser Sintering)",
+                d: "FDM (Fused Deposition Modelling)",
+                     },
+            correctAnswer: "c" ///// Write the correct option inside double quotes
         },
 
-    {
-      question: "<img src='images/8.PNG'><br>Identify the location of Secondary electron detector",  ///// Write the question inside double quotes
+   {
+      question: "2. Which of the following is NOT a characteristic of SLS process:",  ///// Write the question inside double quotes
       answers: {
-        a: "<img src='images/1b.png'>",                  ///// Write the option 1 inside double quotes
-        b: "<img src='images/1a.png'>",                  ///// Write the option 2 inside double quotes
-        c: "<img src='images/1c.PNG'>",      },
+        a: "Printed parts have a porous surface",                  ///// Write the option 1 inside double quotes
+        b: "Residual stresses are not generated",                  ///// Write the option 2 inside double quotes
+        c: "Powdered material is fully melted and solidified",  
+        d: "Expensive setup",
+            },
+      correctAnswer: "c"                ///// Write the correct option inside double quotes
+    },
+    
+    {
+ question: "3. SLS is particularly useful for industries involving:",  ///// Write the question inside double quotes
+      answers: {
+        a: "Mass Production",                  ///// Write the option 1 inside double quotes
+        b: "Rapid Prototyping",                  ///// Write the option 2 inside double quotes
+        c: "Economically Cheap Production",  
+        d: "High quality & limited Production",
+            },
+      correctAnswer: "d"                ///// Write the correct option inside double quotes
+    },
+
+    {
+ question: "4. Which difficulties are caused by thermal distortion in SLS process:",  ///// Write the question inside double quotes
+      answers: {
+        a: "Grainy surface finish",                  ///// Write the option 1 inside double quotes
+        b: "Handling issues",                  ///// Write the option 2 inside double quotes
+        c: "Shrinking and warping",  
+        d: "None of above",
+            },
       correctAnswer: "c"                ///// Write the correct option inside double quotes
     },
 
-
+    {
+ question: "5. Which of the following laser is used in SLS process",  ///// Write the question inside double quotes
+      answers: {
+        a: "Nd:YAG; CO2",                  ///// Write the option 1 inside double quotes
+        b: "CO2; Nd:YAG",                  ///// Write the option 2 inside double quotes
+        c: "Yb-fiber laser; CO2",  
+        d: "Nd:YAG; Yb-fiber laser",
+            },
+      correctAnswer: "c"                ///// Write the correct option inside double quotes
+    },
         
     ];
 
