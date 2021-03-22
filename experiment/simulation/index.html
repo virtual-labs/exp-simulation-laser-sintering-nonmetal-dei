@@ -62,68 +62,54 @@
           <img src="images/sls1.png" onclick="loadImg('images/sls1.png',1)" alt="Avatar" style="height:20%; width:100%;">
        <div class="container">
          <h4><b> Laser</b></h4>
-
+       </div>
        </div>
      </div>
- </div>
- <div class ="col-sm-6 col-md-6 col-lg-6" >
-   <div class="card">
-      <img src="images/sls2.png" onclick="loadImg('images/sls2.png',2)"  alt="Avatar" style="height:20%; width:100%;">
-      <div class="container">
-        <h4><b>Mirrors</b></h4>
-
-        </div>
-      </div>
-    </div>
-  </div>
-  <div class = row style ="height:20px">
-      </div>
-      <div class = row >
   <div class ="col-sm-6 col-md-6 col-lg-6" >
     <div class="card">
-         <img src="images/sls3.png" onclick="loadImg('images/sls3.png',3)" alt="Avatar" style="height:20%; width:100%;">
+         <img src="images/sls2.png" onclick="loadImg('images/sls2.png',2)" alt="Avatar" style="height:20%; width:100%;">
        <div class="container">
          <h4><b>Feed Piston</b></h4>
        </div>
      </div>
  </div>
+</div>
+  <div class = row style ="height:20px">
+      </div>
+ <div class = row >
  <div class ="col-sm-6 col-md-6 col-lg-6" >
    <div class="card">
-        <img src="images/sls4.png" onclick="loadImg('images/sls4.png',4)"  alt="Avatar" style="height:20%; width:100%;">
+        <img src="images/sls3.png" onclick="loadImg('images/sls3.png',3)"  alt="Avatar" style="height:20%; width:100%;">
       <div class="container">
         <h4><b>Powder Feed</b></h4>
         </div>
       </div>
     </div>
-  </div>
-  <div class = row style ="height:20px">
-      </div>
-  <div class = row >
   <div class ="col-sm-6 col-md-6 col-lg-6" >
     <div class="card">
-         <img src="images/sls5.png" onclick="loadImg('images/sls5.png',5)"  alt="Avatar" style="height:20%; width:100%;">
+         <img src="images/sls4.png" onclick="loadImg('images/sls4.png',4)"  alt="Avatar" style="height:20%; width:100%;">
        <div class="container">
          <h4><b>Levelling Roller</b></h4>
-
+        </div>
        </div>
      </div>
  </div>
+
+  <div class = row style ="height:20px">
+      </div>
+ <div class = row >
  <div class ="col-sm-6 col-md-6 col-lg-6" >
     <div class="card">
-         <img src="images/sls5.png" onclick="loadImg('images/SLS.gif',6)"  alt="Avatar" style="height:20%; width:100%;">
+         <img src="images/sls5.png" onclick="loadImg('images/SLS.gif',5)"  alt="Avatar" style="height:20%; width:100%;">
        <div class="container">
          <h4><b>Start Process</b></h4>
 
        </div>
      </div>
  </div>
-</div>
- <div class = row style ="height:20px">
-      </div>
- <div class = row >
   <div class ="col-sm-6 col-md-6 col-lg-6" >
     <div class="card">
-         <img src="images/sls6.png" onclick="loadImg('images/sls6.png',7)"  alt="Avatar" style="height:20%; width:100%;">
+         <img src="images/sls5.png" onclick="loadImg('images/sls5.png',6)"  alt="Avatar" style="height:20%; width:100%;">
        <div class="container">
          <h4><b>Stop Process</b></h4>
 
@@ -139,7 +125,6 @@
  <input type="radio" id="4">
  <input type="radio" id="5">
  <input type="radio" id="6">
- <input type="radio" id="7">
 </p>
   </div>
 </div>
@@ -148,7 +133,7 @@
     <script>
     function loadImg(pathImage,d)
         {
-            if($('#1').is(':checked') && $('#2').is(':checked') && $('#3').is(':checked') && $('#4').is(':checked') && $('#5').is(':checked') && $('#6').is(':checked')&& $('#7').is(':checked'))
+            if($('#1').is(':checked') && $('#2').is(':checked') && $('#3').is(':checked') && $('#4').is(':checked') && $('#5').is(':checked') && $('#6').is(':checked'))
                 {
                     alert("Process Completed.");
                 }
@@ -162,28 +147,25 @@
                     }
                     else if (!($('#2').is(':checked'))) 
                     {
-                      alert("Please select Mirrors.");
+                      alert("Please select Feed Piston.");
                     }
                      else if (!($('#3').is(':checked'))) 
                     {
-                      alert("Please select Feed Piston.");
+                      alert("Please select Powder Feed.");
                     }
                      else if (!($('#4').is(':checked'))) 
                     {
-                      alert("Please select Powder Feed.");
+                      alert("Please select Levelling Roller.");
                     }
                      else if (!($('#5').is(':checked'))) 
                     {
-                      alert("Please select Levelling Roller.");
+                      alert("Please select Start Process.");
                     }
                       else if (!($('#6').is(':checked'))) 
                     {
-                      alert("Please select Start Process.");
-                    }
-                       else if (!($('#7').is(':checked'))) 
-                    {
                       alert("Please select Stop Process.");
                     }
+                    
           }                             
                         
                     else
@@ -214,35 +196,30 @@
                     }
                     else if (!($('#2').is(':checked'))) 
                     {
-                      alert("Please select Mirrors.");
+                      alert("Please select Feed Piston.");
                               break;  
                     }
                      else if (!($('#3').is(':checked'))) 
                     {
-                      alert("Please select Feed Piston.");
+                      alert("Please select Powder Feed.");
                               break;  
                     }
                      else if (!($('#4').is(':checked'))) 
                     {
-                      alert("Please select Powder Feed.");
+                      alert("Please select Levelling Roller.");
                               break;  
                     }
                      else if (!($('#5').is(':checked'))) 
                     {
-                      alert("Please select Levelling Roller.");
-                              break;  
-                    } 
-                    else if (!($('#6').is(':checked'))) 
-                    {
                       alert("Please select Start Process.");
                               break;  
-                    }  
+                    } 
                     else if (!($('#6').is(':checked'))) 
                     {
                       alert("Please select Stop Process.");
                               break;  
                     }  
-                       
+                                           
                                                         }
                                                 }                           
                                         }

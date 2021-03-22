@@ -1,5 +1,4 @@
 * Click on 'Laser'. Laser beam and lenses will be displayed on the left side of the screen.
-* Click on 'Mirrors' then mirror will be displayed.
 * Click on 'Feed Piston' then powder feed piston will be shown.
 * Click on 'Powder Feed' then powder will be added.
 * Click on 'Levelling Roller' then roller will be displayed.
